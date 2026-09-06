@@ -1,0 +1,18 @@
+# ROS2 compilation products
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Dataset cache
+dataset/**/labels.cache
+
+# Old duplicated dataset
+archive/
+
+# Unnecessary training checkpoint
+training/**/weights/last.pt
