@@ -1,0 +1,19 @@
+xh_detector:
+  ros__parameters:
+    camera_device: "/dev/video0"
+    camera_width: 640
+    camera_height: 480
+    camera_fps: 15.0
+    camera_fourcc: "MJPG"
+    frame_id: "camera_link"
+
+    model_path: "/home/adam/Team9/xh/models/best.pt"
+    device: "0"
+    image_size: 640
+    confidence_threshold: 0.40
+    iou_threshold: 0.45
+
+    # R starts/stops a timestamped recording; Q exits.
+    show_window: true
+    save_video: false
+    output_video: "/home/adam/Team9/xh/output/detection.avi"
